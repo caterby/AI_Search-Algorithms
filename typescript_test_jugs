@@ -1,0 +1,200 @@
+Script started on Wed Sep 26 21:22:38 2018
+[?1034hbash-3.2$ python puzzlesolver.py test_jugs.config greedy dotproduct[1Pmanhattaneuclideandfs[Kbfs[C[C[C[C[C[C[C[C[C[Ccd AIproject1[K[1PDocuments
+bash-3.2$ cd Documents[C[C[C[C[C[C[C[C[C[Cpython puzzlesolver.py test_jugs.config greedy dotproduct[1Pmanhattaneuclideandfs[Kbfs[C[C[C[C[C[C[C[C[C[Ccd AIproject1[K
+bash-3.2$ cd AIproject1[1PDocuments[C[C[C[C[C[C[C[C[C[Cpython puzzlesolver.py test_jugs.config greedy dotproduct[1Pmanhattaneuclideandfs[Kbfs
+jugs
+(4, 11)
+(0, 0)
+(1, 0)
+The execute time of is 0.000324010848999
+Max size of frontier is 9
+Number of nodes created is 42
+Max number of nodes stored in the explored set is 11
+Action list is as below: 
+(0, 0)
+(0, 4)
+(3, 1)
+(3, 0)
+(0, 3)
+(3, 3)
+(2, 4)
+(2, 0)
+(0, 2)
+(3, 2)
+(1, 4)
+bash-3.2$ python puzzlesolver.py test_jugs.config bfs[K[K[Kdfs
+jugs
+(4, 11)
+(0, 0)
+(1, 0)
+The node got from the frontier is: 
+(0, 0)
+The node got from the frontier is: 
+(0, 4)
+The node got from the frontier is: 
+(3, 1)
+The node got from the frontier is: 
+(3, 0)
+The node got from the frontier is: 
+(0, 3)
+The node got from the frontier is: 
+(3, 3)
+The node got from the frontier is: 
+(2, 4)
+The node got from the frontier is: 
+(2, 0)
+The node got from the frontier is: 
+(0, 2)
+The node got from the frontier is: 
+(3, 2)
+The node got from the frontier is: 
+(1, 4)
+The node got from the frontier is: 
+(1, 0)
+The execute time of is 0.000571012496948
+Max size of frontier is 10
+Number of nodes created is 42
+Max number of nodes stored in the explored set is 11
+Action list is as below: 
+(0, 4)
+(3, 1)
+(3, 0)
+(0, 3)
+(3, 3)
+(2, 4)
+(2, 0)
+(0, 2)
+(3, 2)
+(1, 4)
+(1, 0)
+bash-3.2$ python puzzlesolver.py test_jugs.config dfs[K[K[Kgreedy [4Pbfs[C[C[C[C[C[C[C[C[C[Ccd AIproject1[K[C[C[C[C[C[C[C[C[C[Cpython puzzlesolver.py test_jugs.config bfsgreedy [C[C[C[C[C[C[C[C[C[C[Kpython puzzlesolver.py test_jugs.config greedy [4Pbfs[C[C[C[C[C[C[C[C[C[Ccd AIproject1[K[1PDocuments[C[C[C[C[C[C[C[C[C[Cpython puzzlesolver.py test_jugs.config greedy dotproduct[1Pmanhattaneuclidean
+jugs
+(4, 11)
+(0, 0)
+(1, 0)
+check the node poped from the frontier:
+(0, 0)
+check the node poped from the frontier:
+(3, 0)
+check the node poped from the frontier:
+(0, 3)
+check the node poped from the frontier:
+(3, 3)
+check the node poped from the frontier:
+(0, 4)
+check the node poped from the frontier:
+(3, 1)
+check the node poped from the frontier:
+(0, 1)
+check the node poped from the frontier:
+(1, 0)
+The execute time of is 0.000525951385498
+Max size of frontier is 7
+Number of nodes created is 26
+Max number of nodes stored in the explored set is 7
+Action list is as below: 
+(0, 0)
+(3, 0)
+(0, 3)
+(3, 3)
+(0, 4)
+(3, 1)
+(0, 1)
+(1, 0)
+bash-3.2$ python puzzlesolver.py test_jugs.config greedy euclidean[K[4Pbfsgreedy euclidean[C[C[C[C[C[C[C[C[C[C[Kpython puzzlesolver.py test_jugs.config greedy euclidean[K[4Pbfs[C[C[C[C[C[C[C[C[C[Ccd AIproject1[K[1PDocuments[C[C[C[C[C[C[C[C[C[Cpython puzzlesolver.py test_jugs.config greedy dotproduct[1Pmanhattan
+jugs
+(4, 11)
+(0, 0)
+(1, 0)
+check the node poped from the frontier:
+(0, 0)
+check the node poped from the frontier:
+(3, 0)
+check the node poped from the frontier:
+(0, 3)
+check the node poped from the frontier:
+(0, 4)
+check the node poped from the frontier:
+(3, 1)
+check the node poped from the frontier:
+(0, 1)
+check the node poped from the frontier:
+(1, 0)
+The execute time of is 0.000442981719971
+Max size of frontier is 6
+Number of nodes created is 22
+Max number of nodes stored in the explored set is 6
+Action list is as below: 
+(0, 0)
+(3, 0)
+(0, 3)
+(0, 4)
+(3, 1)
+(0, 1)
+(1, 0)
+bash-3.2$ python puzzlesolver.py test_jugs.config greedy manhattaneuclidean[K[4Pbfs[C[C[C[C[C[C[C[C[C[Ccd AIproject1[K[1PDocuments[C[C[C[C[C[C[C[C[C[Cpython puzzlesolver.py test_jugs.config greedy dotproduct
+jugs
+(4, 11)
+(0, 0)
+(1, 0)
+check the node poped from the frontier:
+(0, 0)
+check the node poped from the frontier:
+(0, 4)
+check the node poped from the frontier:
+(3, 0)
+check the node poped from the frontier:
+(0, 3)
+check the node poped from the frontier:
+(3, 4)
+check the node poped from the frontier:
+(3, 1)
+check the node poped from the frontier:
+(0, 1)
+check the node poped from the frontier:
+(1, 0)
+The execute time of is 0.000465154647827
+Max size of frontier is 4
+Number of nodes created is 24
+Max number of nodes stored in the explored set is 7
+Action list is as below: 
+(0, 0)
+(0, 4)
+(3, 0)
+(0, 3)
+(3, 4)
+(3, 1)
+(0, 1)
+(1, 0)
+bash-3.2$ python puzzlesolver.py test_jugs.config greedy dotproduct[1Pmanhattan[K[K[K[K[K[K[K[K[Kcosinesimilarity
+jugs
+(4, 11)
+(0, 0)
+(1, 0)
+check the node poped from the frontier:
+(0, 0)
+check the node poped from the frontier:
+(0, 4)
+check the node poped from the frontier:
+(3, 4)
+check the node poped from the frontier:
+(3, 1)
+check the node poped from the frontier:
+(0, 1)
+check the node poped from the frontier:
+(1, 0)
+The execute time of is 0.000325918197632
+Max size of frontier is 4
+Number of nodes created is 16
+Max number of nodes stored in the explored set is 5
+Action list is as below: 
+(0, 0)
+(0, 4)
+(3, 4)
+(3, 1)
+(0, 1)
+(1, 0)
+bash-3.2$ exit
+exit
+
+Script done on Wed Sep 26 21:24:03 2018
